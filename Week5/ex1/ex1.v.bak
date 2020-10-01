@@ -1,0 +1,9 @@
+module ex (
+	input x1 ,
+	input x2 ,
+	input x3 ,
+	input x4 ,
+	input s0 ,
+	input s1 ,
+	output reg q
+);
