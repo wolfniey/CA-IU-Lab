@@ -12,3 +12,5 @@ output o_C;
 
 assign o_Z = i_A ^ i_B;
 assign o_C = i_A & i_B;
+
+endmodule

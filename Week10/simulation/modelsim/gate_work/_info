@@ -8,50 +8,28 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/GitHub/CA-IU-Lab/Week10/simulation/modelsim
-vhalf_adder_testbench
-Z1 !s110 1604579668
-!i10b 1
-!s100 FAjhb`KM8elWY]YO7ZI[A3
-IbB1e?:M95A1b7OI?E];[l1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
-w1604579363
-8D:/GitHub/CA-IU-Lab/Week10/half_adder_testbench.v
-FD:/GitHub/CA-IU-Lab/Week10/half_adder_testbench.v
-L0 1
-Z3 OV;L;10.5b;63
-r1
-!s85 0
-31
-Z4 !s108 1604579668.000000
-!s107 D:/GitHub/CA-IU-Lab/Week10/half_adder_testbench.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/GitHub/CA-IU-Lab/Week10|D:/GitHub/CA-IU-Lab/Week10/half_adder_testbench.v|
-!i113 1
-Z5 o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+D:/GitHub/CA-IU-Lab/Week10
-Z6 tCvgOpt 0
 vhard_block
-R1
+Z1 !s110 1604580401
 !i10b 1
 !s100 VEeBGgKS5zl9h@LYB7kO23
 IHC`U7hRB]O?N^G<Ve7?TP1
-R2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z7 w1604579641
-Z8 8mux_2_1.vo
-Z9 Fmux_2_1.vo
+Z3 w1604580377
+Z4 8mux_2_1.vo
+Z5 Fmux_2_1.vo
 L0 243
-R3
+Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-R4
-Z10 !s107 mux_2_1.vo|
-Z11 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|mux_2_1.vo|
+Z7 !s108 1604580401.000000
+Z8 !s107 mux_2_1.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|mux_2_1.vo|
 !i113 1
-R5
-Z12 !s92 -vlog01compat -work work +incdir+.
-R6
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
 vmux_2_1
 R1
 !i10b 1
@@ -59,18 +37,18 @@ R1
 I<eAl9Ma_Sb_e8NoYVkeMB1
 R2
 R0
-R7
-R8
-R9
-L0 31
 R3
+R4
+R5
+L0 31
+R6
 r1
 !s85 0
 31
-R4
+R7
+R8
+R9
+!i113 1
 R10
 R11
-!i113 1
-R5
 R12
-R6

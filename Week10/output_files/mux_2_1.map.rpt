@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mux_2_1
-Thu Nov 05 15:33:02 2020
+Thu Nov 05 15:45:20 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 05 15:33:02 2020       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 05 15:45:20 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; mux_2_1                                     ;
 ; Top-level Entity Name              ; mux_2_1                                     ;
@@ -249,7 +249,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -259,7 +259,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov 05 15:32:19 2020
+    Info: Processing started: Thu Nov 05 15:44:35 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mux_2_1 -c mux_2_1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -280,8 +280,8 @@ Info (21057): Implemented 5 device resources after synthesis - the final resourc
     Info (21061): Implemented 1 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4770 megabytes
-    Info: Processing ended: Thu Nov 05 15:33:02 2020
-    Info: Elapsed time: 00:00:43
-    Info: Total CPU time (on all processors): 00:01:12
+    Info: Processing ended: Thu Nov 05 15:45:20 2020
+    Info: Elapsed time: 00:00:45
+    Info: Total CPU time (on all processors): 00:01:16
 
 

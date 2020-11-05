@@ -12,38 +12,26 @@
 # 
 # vlog -vlog01compat -work work +incdir+. {mux_2_1.vo}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:34:28 on Nov 05,2020
+# Start time: 15:46:41 on Nov 05,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." mux_2_1.vo 
 # -- Compiling module mux_2_1
 # -- Compiling module hard_block
 # 
 # Top level modules:
 # 	mux_2_1
-# End time: 15:34:28 on Nov 05,2020, Elapsed time: 0:00:00
+# End time: 15:46:41 on Nov 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+D:/GitHub/CA-IU-Lab/Week10 {D:/GitHub/CA-IU-Lab/Week10/half_adder_testbench.v}
+# vlog -vlog01compat -work work +incdir+D:/GitHub/CA-IU-Lab/Week10 {D:/GitHub/CA-IU-Lab/Week10/full_adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:34:28 on Nov 05,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/GitHub/CA-IU-Lab/Week10" D:/GitHub/CA-IU-Lab/Week10/half_adder_testbench.v 
-# -- Compiling module half_adder_testbench
-# 
-# Top level modules:
-# 	half_adder_testbench
-# End time: 15:34:28 on Nov 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/GitHub/CA-IU-Lab/Week10 {D:/GitHub/CA-IU-Lab/Week10/half_adder.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:34:29 on Nov 05,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/GitHub/CA-IU-Lab/Week10" D:/GitHub/CA-IU-Lab/Week10/half_adder.v 
+# Start time: 15:46:41 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/GitHub/CA-IU-Lab/Week10" D:/GitHub/CA-IU-Lab/Week10/full_adder.v 
 # -- Compiling module half_adder
-# ** Error: (vlog-13069) D:/GitHub/CA-IU-Lab/Week10/half_adder.v(14): near "EOF": syntax error, unexpected end of source code.
-# End time: 15:34:29 on Nov 05,2020, Elapsed time: 0:00:00
+# ** Error: (vlog-13069) D:/GitHub/CA-IU-Lab/Week10/full_adder.v(16): near "EOF": syntax error, unexpected end of source code.
+# End time: 15:46:41 on Nov 05,2020, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
 # ** Error: D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-# Error in macro ./mux_2_1_run_msim_gate_verilog.do line 11
+# Error in macro ./mux_2_1_run_msim_gate_verilog.do line 10
 # D:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
 #     while executing
-# "vlog -vlog01compat -work work +incdir+D:/GitHub/CA-IU-Lab/Week10 {D:/GitHub/CA-IU-Lab/Week10/half_adder.v}"
-run
-# No Design Loaded!
+# "vlog -vlog01compat -work work +incdir+D:/GitHub/CA-IU-Lab/Week10 {D:/GitHub/CA-IU-Lab/Week10/full_adder.v}"

@@ -1,5 +1,5 @@
 Flow report for mux_2_1
-Thu Nov 05 15:34:01 2020
+Thu Nov 05 15:46:17 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Nov 05 15:34:01 2020       ;
+; Flow Status                        ; Successful - Thu Nov 05 15:46:17 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; mux_2_1                                     ;
 ; Top-level Entity Name              ; mux_2_1                                     ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/05/2020 15:32:22 ;
+; Start date & time ; 11/05/2020 15:44:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mux_2_1             ;
 +-------------------+---------------------+
@@ -77,20 +77,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                        ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +----------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                  ; 79349034881725.160457954102420         ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                  ; 79349034881725.160458027608676         ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                     ; --            ; --          ; testbench                         ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST        ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST        ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST        ; Off                                    ; --            ; --          ; eda_board_design_signal_integrity ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST        ; Off                                    ; --            ; --          ; eda_board_design_symbol           ;
-; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; Tcl_script1.tcl                        ; --            ; --          ; eda_simulation                    ;
+; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; full_adder_tcl.tcl                     ; --            ; --          ; eda_simulation                    ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; testbench                              ; --            ; --          ; eda_simulation                    ;
 ; EDA_OUTPUT_DATA_FORMAT                 ; Verilog Hdl                            ; --            ; --          ; eda_simulation                    ;
 ; EDA_RUN_TOOL_AUTOMATICALLY             ; On                                     ; --            ; --          ; eda_simulation                    ;
 ; EDA_SIMULATION_TOOL                    ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --                                ;
 ; EDA_TEST_BENCH_ENABLE_STATUS           ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation                    ;
-; EDA_TEST_BENCH_FILE                    ; half_adder_testbench.v                 ; --            ; --          ; testbench                         ;
-; EDA_TEST_BENCH_FILE                    ; half_adder.v                           ; --            ; --          ; testbench                         ;
+; EDA_TEST_BENCH_FILE                    ; full_adder.v                           ; --            ; --          ; testbench                         ;
+; EDA_TEST_BENCH_FILE                    ; full_adder_testbench.v                 ; --            ; --          ; testbench                         ;
 ; EDA_TEST_BENCH_MODULE_NAME             ; testbench                              ; --            ; --          ; testbench                         ;
 ; EDA_TEST_BENCH_NAME                    ; testbench                              ; --            ; --          ; eda_simulation                    ;
 ; EDA_TIME_SCALE                         ; 1 ps                                   ; --            ; --          ; eda_simulation                    ;
@@ -110,12 +110,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:42     ; 1.0                     ; 4770 MB             ; 00:01:12                           ;
-; Fitter               ; 00:00:23     ; 1.0                     ; 5639 MB             ; 00:00:24                           ;
-; Assembler            ; 00:00:10     ; 1.0                     ; 4685 MB             ; 00:00:08                           ;
-; Timing Analyzer      ; 00:00:07     ; 1.0                     ; 4819 MB             ; 00:00:06                           ;
+; Analysis & Synthesis ; 00:00:44     ; 1.0                     ; 4770 MB             ; 00:01:16                           ;
+; Fitter               ; 00:00:24     ; 1.0                     ; 5639 MB             ; 00:00:24                           ;
+; Assembler            ; 00:00:08     ; 1.0                     ; 4685 MB             ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:07     ; 1.0                     ; 4818 MB             ; 00:00:06                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4641 MB             ; 00:00:02                           ;
-; Total                ; 00:01:24     ; --                      ; --                  ; 00:01:52                           ;
+; Total                ; 00:01:25     ; --                      ; --                  ; 00:01:55                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
