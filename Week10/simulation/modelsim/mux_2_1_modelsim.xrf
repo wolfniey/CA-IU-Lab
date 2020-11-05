@@ -1,8 +1,8 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/mux_2_1.v
-source_file = 1, C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/testbench.v
-source_file = 1, C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/Tcl_script1.tcl
-source_file = 1, C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/db/mux_2_1.cbx.xml
+source_file = 1, D:/GitHub/CA-IU-Lab/Week10/mux_2_1.v
+source_file = 1, D:/GitHub/CA-IU-Lab/Week10/testbench.v
+source_file = 1, D:/GitHub/CA-IU-Lab/Week10/Tcl_script1.tcl
+source_file = 1, D:/GitHub/CA-IU-Lab/Week10/db/mux_2_1.cbx.xml
 design_name = mux_2_1
 instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, mux_2_1, 1
 instance = comp, \f~output , f~output, mux_2_1, 1

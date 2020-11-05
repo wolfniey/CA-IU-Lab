@@ -1,6 +1,6 @@
 Analysis & Synthesis report for mux_2_1
-Tue Nov 03 20:41:52 2020
-Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Thu Nov 05 15:33:02 2020
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -23,9 +23,9 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2018  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and any partner logic 
+and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -35,16 +35,15 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details, at
-https://fpgasoftware.intel.com/eula.
+refer to the applicable agreement for further details.
 
 
 
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 03 20:41:52 2020       ;
-; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 05 15:33:02 2020       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; mux_2_1                                     ;
 ; Top-level Entity Name              ; mux_2_1                                     ;
 ; Family                             ; MAX 10                                      ;
@@ -153,7 +152,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
+; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -164,13 +163,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                            ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                              ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
-; mux_2_1.v                        ; yes             ; User Verilog HDL File  ; C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/mux_2_1.v ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                       ;
++----------------------------------+-----------------+------------------------+--------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path         ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------+---------+
+; mux_2_1.v                        ; yes             ; User Verilog HDL File  ; D:/GitHub/CA-IU-Lab/Week10/mux_2_1.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -250,7 +249,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -259,18 +258,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Tue Nov 03 20:41:34 2020
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Thu Nov 05 15:32:19 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mux_2_1 -c mux_2_1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 4 design units, including 4 entities, in source file mux_2_1.v
-    Info (12023): Found entity 1: mux_2_1 File: C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/mux_2_1.v Line: 1
-    Info (12023): Found entity 2: mux_2_1_ternary File: C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/mux_2_1.v Line: 9
-    Info (12023): Found entity 3: b1_mux_2_1_if File: C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/mux_2_1.v Line: 18
-    Info (12023): Found entity 4: b1_mux_2_1_case File: C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/mux_2_1.v Line: 33
+    Info (12023): Found entity 1: mux_2_1 File: D:/GitHub/CA-IU-Lab/Week10/mux_2_1.v Line: 1
+    Info (12023): Found entity 2: mux_2_1_ternary File: D:/GitHub/CA-IU-Lab/Week10/mux_2_1.v Line: 9
+    Info (12023): Found entity 3: b1_mux_2_1_if File: D:/GitHub/CA-IU-Lab/Week10/mux_2_1.v Line: 18
+    Info (12023): Found entity 4: b1_mux_2_1_case File: D:/GitHub/CA-IU-Lab/Week10/mux_2_1.v Line: 33
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.v
-    Info (12023): Found entity 1: testbench File: C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/testbench.v Line: 1
+    Info (12023): Found entity 1: testbench File: D:/GitHub/CA-IU-Lab/Week10/testbench.v Line: 1
 Info (12127): Elaborating entity "mux_2_1" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -280,9 +279,9 @@ Info (21057): Implemented 5 device resources after synthesis - the final resourc
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4747 megabytes
-    Info: Processing ended: Tue Nov 03 20:41:52 2020
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:31
+    Info: Peak virtual memory: 4770 megabytes
+    Info: Processing ended: Thu Nov 05 15:33:02 2020
+    Info: Elapsed time: 00:00:43
+    Info: Total CPU time (on all processors): 00:01:12
 
 
