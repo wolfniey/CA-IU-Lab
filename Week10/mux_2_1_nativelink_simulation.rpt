@@ -1,0 +1,95 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  max10
+Quartus root          :  c:/intelfpga_lite/20.1/quartus/bin64/
+Quartus sim root      :  c:/intelfpga_lite/20.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  mux_2_1.vo
+Sim SDF file          :  mux_2_1__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/intelfpga_lite/20.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File mux_2_1_run_msim_gate_verilog.do already exists - backing up current file as mux_2_1_run_msim_gate_verilog.do.bak
+Probing transcript
+ModelSim-Altera Info: # Reading pref.tcl
+ModelSim-Altera Info: # do mux_2_1_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+ModelSim-Altera Info: # vmap work gate_work 
+ModelSim-Altera Info: # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {mux_2_1.vo}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 20:43:25 on Nov 03,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." mux_2_1.vo 
+ModelSim-Altera Info: # -- Compiling module mux_2_1
+ModelSim-Altera Info: # -- Compiling module hard_block
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	mux_2_1
+ModelSim-Altera Info: # End time: 20:43:25 on Nov 03,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2 {C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/testbench.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 20:43:26 on Nov 03,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2" C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/testbench.v 
+ModelSim-Altera Info: # -- Compiling module testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	testbench
+ModelSim-Altera Info: # End time: 20:43:26 on Nov 03,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2 {C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/mux_2_1.v}
+ModelSim-Altera Info: # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+ModelSim-Altera Info: # Start time: 20:43:26 on Nov 03,2020
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2" C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/mux_2_1.v 
+ModelSim-Altera Info: # -- Compiling module mux_2_1
+ModelSim-Altera Info: # -- Compiling module mux_2_1_ternary
+ModelSim-Altera Info: # -- Compiling module b1_mux_2_1_if
+ModelSim-Altera Info: # -- Compiling module b1_mux_2_1_case
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	mux_2_1
+ModelSim-Altera Info: # 	mux_2_1_ternary
+ModelSim-Altera Info: # 	b1_mux_2_1_if
+ModelSim-Altera Info: # 	b1_mux_2_1_case
+ModelSim-Altera Info: # End time: 20:43:26 on Nov 03,2020, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  testbench
+ModelSim-Altera Info: # vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" testbench 
+ModelSim-Altera Info: # Start time: 20:43:26 on Nov 03,2020
+ModelSim-Altera Info: # Loading work.testbench
+ModelSim-Altera Info: # Loading work.mux_2_1
+ModelSim-Altera Info: # Loading work.mux_2_1_ternary
+ModelSim-Altera Info: # Loading work.b1_mux_2_1_if
+ModelSim-Altera Info: # Loading work.b1_mux_2_1_case
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # do C:/Users/manue/Desktop/ComputerArchitectureLab-master/Week5/ex2/Tcl_script1.tcl
+ModelSim-Altera Info: # add wave sim:/testbench/*
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # a=0 b=1 sel=x y_comb=x y_sel=x y_if=x y_case=x
+ModelSim-Altera Info: # a=0 b=1 sel=0 y_comb=0 y_sel=0 y_if=0 y_case=0
+ModelSim-Altera Info: # a=0 b=1 sel=1 y_comb=1 y_sel=1 y_if=1 y_case=1
+ModelSim-Altera Info: # a=0 b=0 sel=1 y_comb=0 y_sel=0 y_if=0 y_case=0
+ModelSim-Altera Info: # a=0 b=1 sel=1 y_comb=1 y_sel=1 y_if=1 y_case=1
+ModelSim-Altera Info: # wave zoom full
+ModelSim-Altera Info: # 0 ps
+ModelSim-Altera Info: # 37 ps
+ModelSim-Altera Info: # End time: 21:01:29 on Nov 03,2020, Elapsed time: 0:18:03
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+Info: NativeLink simulation flow was successful
